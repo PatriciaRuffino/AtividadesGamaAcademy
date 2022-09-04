@@ -36,6 +36,7 @@ public class Chefe extends Funcionario{
         this.beneficioTerno = beneficioTerno;
     }
 
+
     @Override
     public double calcularSalario() {
         return salarioBase + salarioBase*adicionalFuncao/100+beneficioTerno;
